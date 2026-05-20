@@ -13,7 +13,6 @@ async function disconnect() {
   await mongoose.disconnect();
 }
 
-/** Native driver access if needed elsewhere. */
 function getDb() {
   if (mongoose.connection.readyState !== 1) {
     throw new Error('MongoDB not connected. Call connect() first.');

@@ -1,7 +1,9 @@
 node_modules/
 .env
-tmp/
+
+temp/
 *.log
 .DS_Store
-test.js 
-test.jpeg
+test*
+__pycache__/
+*.py[cod]
